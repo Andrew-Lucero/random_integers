@@ -1,6 +1,6 @@
 random_integers
 ===============
-Creates a file containing a specified number of integers in on a specified number
+Creates a file containing a specified number of integers on a specified number
 of lines, with said integers in a specified range.
 
 License

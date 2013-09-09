@@ -50,6 +50,10 @@ if __name__ == '__main__':
             else:
                 print "This program requires 4 integers!"
                 exit()
+        if argi[3] < argi[2]:
+            temp = argi[2]
+            argi[2] = argi[3]
+            argi[3] = temp
         file_generator(list_generator(argi[0],argi[1],argi[2],argi[3]),filename)
     else:
         print "This program requires 4 integer arguments and 1 filename"
